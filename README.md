@@ -35,17 +35,18 @@ The slope of the linear model can not be considered to be zero, as the p-value o
 The important parameter of whether the linear model predicts the mpg of the MechaCar is the r-squared value. In this case, it is at 0.7149 means,this model is 71% accurate.Although there are still unconsidered factors, this model does predict the mpg of the MechaCar prototype with some relative effectiveness.
  
 ## Deliverable 2: Create Visualizations for the Trip Analysis 
-The MechaCar Suspension_Coil.csv dataset contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. Using R, we will create a summary statistics table to show the suspension coil’s PSI continuous variable across all manufacturing lots.The following PSI metrics for each lot: mean, median, variance, and standard deviation.The Suspension_Coil.csv file is downloaded,and placed in the active directory for our R session.Import and read in the Suspension_Coil.csv file as a table.The total_summary dataframe is created using the summarize() function to get the mean, median, variance, and standard deviation of the suspension coil’s PSI column.
-<img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/suspension_read.png"  width = 800><br>
-<img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/Coils_df.png"  width = 800><br>
+The MechaCar Suspension_Coil.csv dataset contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. Using R, we will create a summary statistics table to show the suspension coil’s PSI continuous variable across all manufacturing lots.The following PSI metrics for each lot: mean, median, variance, and standard deviation.The Suspension_Coil.csv file is downloaded,and placed in the active directory for our R session.Import and read in the Suspension_Coil.csv file as a table.The total_summary dataframe is created using the summarize() function to get the mean, median, variance, and standard deviation of the suspension coil’s PSI column.<br>
+<img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/suspension_read.png"  width = 900><br>
+<img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/Coils_df.png"  width = 600><br>
 The total_summary dataframe and the results looks like this:<br>
-<img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/total_summary.png"  width = 800><br>
-<img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/total_summary_result.png"  width = 800><br>
+<img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/total_summary.png"  width = 600><br>
+<img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/total_summary_result.png"  width = 600><br>
 A lot_summary dataframe is created using the group_by() and the summarize() functions to group each manufacturing lot by the mean, median, variance, and standard deviation of the suspension coil’s PSI column.The lot_summary dataframe should look like this below:<br>
 
-<img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/lot_summary.png"  width = 800><br>
-<img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/Lot_Summary_result.png"  width = 800><br>
-## Summary statistics of the suspension coil
+<img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/lot_summary.png"  width = 600><br>
+<img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/Lot_Summary_result.png"  width = 600><br>
+
+## Summary statistics of the suspension coils
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
