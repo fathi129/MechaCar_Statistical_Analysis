@@ -52,7 +52,8 @@ The variance for the total manufacturing lot is 62 < 100, which is within the ex
 
 ## Deliverable 3: T-Tests on Suspension Coils 
 Using R, perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
-In our RScript, we will use t.test() function to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.we will write three more RScripts,using the t.test() function and its subset() argument to determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch.
+In our RScript, we will use t.test() function to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.we will write three more RScripts,using the t.test() function and its subset() argument to determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch.<br>
+
 <img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/ttest_RScript.png"  width = 600><br>
 <img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/ttest_result_total.png"  width = 500><br>
 <img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/lot1_result.png"  width = 500><br>
@@ -60,3 +61,4 @@ In our RScript, we will use t.test() function to determine if the PSI across all
 <img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/lot3_result.png"  width = 500><br>
 
 ## Summary of the T-Test results on Suspension Coils
+
