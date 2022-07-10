@@ -37,17 +37,26 @@ The important parameter of whether the linear model predicts the mpg of the Mech
 ## Deliverable 2: Create Visualizations for the Trip Analysis 
 The MechaCar Suspension_Coil.csv dataset contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. Using R, we will create a summary statistics table to show the suspension coil’s PSI continuous variable across all manufacturing lots.The following PSI metrics for each lot: mean, median, variance, and standard deviation.The Suspension_Coil.csv file is downloaded,and placed in the active directory for our R session.Import and read in the Suspension_Coil.csv file as a table.The total_summary dataframe is created using the summarize() function to get the mean, median, variance, and standard deviation of the suspension coil’s PSI column.<br>
 <img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/suspension_read.png"  width = 900><br>
-<img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/Coils_df.png"  width = 600><br>
+<img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/Coils_df.png"  width = 400><br>
 The total_summary dataframe and the results looks like this:<br>
-<img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/total_summary.png"  width = 600><br>
-<img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/total_summary_result.png"  width = 600><br>
-A lot_summary dataframe is created using the group_by() and the summarize() functions to group each manufacturing lot by the mean, median, variance, and standard deviation of the suspension coil’s PSI column.The lot_summary dataframe should look like this below:<br>
-
-<img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/lot_summary.png"  width = 600><br>
-<img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/Lot_Summary_result.png"  width = 600><br>
+<img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/total_summary.png"  width = 900><br><br>
+<img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/total_summary_result.png"  width = 500><br>
+A lot_summary dataframe is created using the group_by() and the summarize() functions to group each manufacturing lot by the mean, median, variance, and standard deviation of the suspension coil’s PSI column.The lot_summary dataframe should look like this below:<br><br>
+<img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/lot_summary.png"  width = 900><br>
+<img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/Lot_Summary_result.png"  width = 500><br>
 
 ## Summary statistics of the suspension coils
+The summary statistics of all of the manufacturing lots has the mean of 1498.78 and median as 1500.
+- The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+The variance for the total manufacturing lot is 62 < 100, which is within the expected design specifications of staying under 100 PSI. However, when reviewing the data by Lot number, Lot 3 is a large contributing factor to the variance being high. Lot 3 shows a variance of 170 > 100 and does not meet the design specifications. Lot 1 and Lot 2 have significantly lower variance, 1 and 7 respectively.
 
-The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+## Deliverable 3: T-Tests on Suspension Coils 
+Using R, perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
+In our RScript, we will use t.test() function to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.we will write three more RScripts,using the t.test() function and its subset() argument to determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch.
+<img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/ttest_RScript.png"  width = 900><br>
+<img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/ttest_result_total.png"  width = 500><br>
+<img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/lot1_result.png"  width = 500><br>
+<img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/lot2_result.png"  width = 500><br>
+<img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/lot3_result.png"  width = 500><br>
 
-
+## Summary of the T-Test results on Suspension Coils
