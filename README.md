@@ -1,22 +1,26 @@
 # MechaCar_Statistical_Analysis
-##Purpose of the Analysis
-##Resources
+The analysis aims to offer insights on the MechaCar's production to help the manufacturing team.
+
+## Overview of the Analysis
+The AutoRU's company want their data analyst team to perform retrospective analysis of historical data,analytical verification and validation of current automative specifications and study design of future product testing.The analysis should contain a quantitative metric and clear interpretation of the results in order to keep the management happy.The statistical tests are performed using R.Using R we can calculate the summary statistics of different variables,visualization of different detects and we can provide interpretation based on the statistical test results.we need to use critical thinking skills,hypothesis and analysis workflow in order to make AUTORU's manufacturing process even better.
+
+## Purpose of the Analysis
+In order to conduct the analysis, we are using two datsets containing information related to the miles per gallon and the suspension coils of the MechaCar.
+The miles per galloon dataset contains the following columns vehicle_length,vehicle_weight,spoiler_angle,ground_clearance,AWD and mpg.Where as the suspension coils dataset contains VehicleID,Manufacturing_Lot and PSI columns.We are using R programming and its dplyr library to perform the statistical analysis.
 
 ## Resources Used
-*DataSources*: [Earthquakes GeoJSON](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson), [Earthquakes above 4.5mag GeoJSON](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson), [Tectonic Plate GeoJSON](https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json)<br>
-*Software used*: HTML,CSS,Leaflet library,D3.js Library.<br>
-*Language*: JavaScript. <br>
-
+*DataSources*: [MechaCar_mpg.csv](https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Resources/MechaCar_mpg.csv), [Suspension_Coil.csv](https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Resources/Suspension_Coil.csv)<br>
+*Software used*: R studio,dplyr Library.<br>
+*Language*: R <br>
 
 ## Deliverable 1: Linear Regression to Predict MPG
-The MechaCar_mpg.csv dataset contains mpg test results for 50 prototype MechaCars. The MechaCar prototypes were produced using multiple design specifications to identify ideal vehicle performance. Multiple metrics, such as vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance, were collected for each vehicle. Using your knowledge of R, you’ll design a linear model that predicts the mpg of MechaCar prototypes using several variables from the MechaCar_mpg.csv file. Then, you’ll write a short interpretation of the multiple linear regression results in the README.md.
-Download the MechaCar_mpg.csv file, and place it in the active directory for your R session.
-Create a new RScript in your R source pane, name it MechaCarChallenge.RScript, and save it to your active directory.
-Use the library() function to load the dplyr package.
-Import and read in the MechaCar_mpg.csv file as a dataframe.
-Perform linear regression using the lm() function. In the lm() function, pass in all six variables (i.e., columns), and add the dataframe you created in Step 4 as the data parameter.
+The MechaCar_mpg.csv dataset contains mpg test results for 50 prototype MechaCars. The MechaCar prototypes were produced using multiple design specifications to identify ideal vehicle performance. Multiple metrics, such as vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance, were collected for each vehicle. we willndesign a linear model that predicts the mpg of MechaCar prototypes using several variables from the given dataset. 
+we need to download and place the MechaCar_mpg.csv file,in the active directory for our R session,load the dplyr package using library() function.
+Import and read in the MechaCar_mpg.csv file as a dataframe.we perform linear regression using the lm() function. In the lm() function, we need to pass in all six variables (i.e., columns), and add the dataframe we created as data parameter.
+<img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/MechaCar_readfile.png"  width = 800><br>
+
 Using the summary() function, determine the p-value and the r-squared value for the linear regression model.
-Save your MechaCarChallenge.RScript file to your GitHub repository.
+Save your MechaCarChallenge.RScript file to your GitHub repository. 
 
 
 
