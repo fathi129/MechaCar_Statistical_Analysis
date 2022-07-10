@@ -18,14 +18,14 @@ The MechaCar_mpg.csv dataset contains mpg test results for 50 prototype MechaCar
 we need to download and place the MechaCar_mpg.csv file,in the active directory for our R session,load the dplyr package using library() function.
 Import and read in the MechaCar_mpg.csv file as a dataframe.we perform linear regression using the lm() function. In the lm() function, we need to pass in all six variables (i.e., columns), and add the dataframe we created as data parameter.Using the summary() function, we determine the p-value and the r-squared value for the linear regression model.<br>
 
-<img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/MechaCar_readfile.png"  width = 800><br>
+<img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/MechaCar_readfile.png"  width = 900><br>
 When we execute the script,we get the following linear regression results,The data frame looks like this<br>
 <img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/MechaCar_df.png"  width = 800><br>
 <img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/linear_result.png"  width = 800><br>
 
 ## Summary of Linear Regression Model
 In this distribution we can see that the residuals has minimum value of -19.4 and maximum value of 18.5 where as the median is -0.07 which is close to zero.
-- Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+- Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?<br>
  There were two variables that provided a non-random amount of variance: The vehicle length and the ground_clearance.
  Both of these have extremely small p-value of 2.6x10-12 and 5.21x10-8, respectively meaning that they had a high level of significance. It also should be  noted that the intercept as had a high level of significance meaning that there are still other factors contributing to the variance of the miles per gallon of the MechaCar.
   
