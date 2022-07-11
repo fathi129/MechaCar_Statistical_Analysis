@@ -20,7 +20,7 @@ Import and read in the MechaCar_mpg.csv file as a dataframe.we perform linear re
 
 <img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/MechaCar_readfile.png"  width = 900><br>
 When we execute the script,we get the following linear regression results,The data frame looks like this<br>
-<img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/MechaCar_df.png"  width = 800><br>
+<img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/vehicle_df.png"  width = 800><br>
 <img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/linear_result.png"  width = 800><br>
 
 ## Summary of Linear Regression Model
@@ -40,7 +40,7 @@ The MechaCar Suspension_Coil.csv dataset contains the results from multiple prod
 <img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/Coils_df.png"  width = 400><br>
 The total_summary dataframe and the results looks like this:<br>
 <img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/total_summary.png"  width = 900><br><br>
-<img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/total_summary_result.png"  width = 500><br>
+<img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/tot_summary.png"  width = 500><br>
 A lot_summary dataframe is created using the group_by() and the summarize() functions to group each manufacturing lot by the mean, median, variance, and standard deviation of the suspension coil’s PSI column.The lot_summary dataframe should look like this below:<br><br>
 <img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/lot_summary.png"  width = 900><br>
 <img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/Lot_Summary_result.png"  width = 500><br>
