@@ -18,7 +18,7 @@ The MechaCar_mpg.csv dataset contains mpg test results for 50 prototype MechaCar
 we need to download and place the MechaCar_mpg.csv file,in the active directory for our R session,load the dplyr package using library() function.
 Import and read in the MechaCar_mpg.csv file as a dataframe.we perform linear regression using the lm() function. In the lm() function, we need to pass in all six variables (i.e., columns), and add the dataframe we created as data parameter.Using the summary() function, we determine the p-value and the r-squared value for the linear regression model.<br>
 
-<img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/MechaCar_readfile.png"  width = 900><br>
+<img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/vehicle_df.png"  width = 900><br>
 When we execute the script,we get the following linear regression results,The data frame looks like this<br>
 <img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/vehicle_df.png"  width = 800><br>
 <img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/linear_result.png"  width = 800><br>
