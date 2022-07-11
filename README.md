@@ -73,11 +73,11 @@ By using a significance level of 95%, meaning that 95% of the time this tests re
 
 ## Study Design: MechaCar vs Competition. 
 The metrics would be of interest to customers for MechaCar performance against the competitors are cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
-- What metric or metrics are you going to test?
+- What metric or metrics are you going to test?<br>
 The metrics which I want to test are maintanence cost,fuel efficiency.
--What is the null hypothesis or alternative hypothesis?
+-What is the null hypothesis or alternative hypothesis?<br>
 Null Hypothesis is the cars belonging to same type like sedan have same fuel efficiency.Alternative Hypothesis is the same type of car does not have same fuel efficiency.Null Hypothesis the small cars have less maintanence cost compared to big car.The Alternative hypothesis is it is not so.
-- What statistical test would you use to test the hypothesis? And why?
+- What statistical test would you use to test the hypothesis? And why?<br>
 I would use an Sample t tests,ANOVA test to complete this analysis for checking the maintanence cost and fuel efficiencies. Also I would use the ggplot2 library to plot boxplots which show the how different cars have different maintanence cost and fuel efficiencies.
-- What data is needed to run the statistical test?
-I would need maintanence cost and fuel efficiency data from 50 individual cars to create a sample size of data for each car in the class type.
+- What data is needed to run the statistical test?<br>
+I would need maintanence cost and fuel efficiency data from 50 individual cars to create a sample size of data for each car in the class type.So that we can perform statistical test as a whole and statistical test for different sets and compare the results.
