@@ -20,7 +20,7 @@ Import and read in the MechaCar_mpg.csv file as a dataframe.we perform linear re
 
 <img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/vehicle_df.png"  width = 900><br>
 When we execute the script,we get the following linear regression results,The data frame looks like this<br>
-<img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/vehicle_df.png"  width = 800><br>
+<img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/MechaCar_df.png"  width = 800><br>
 <img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/linear_result.png"  width = 800><br>
 
 ## Summary of Linear Regression Model
