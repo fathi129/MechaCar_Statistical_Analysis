@@ -55,10 +55,20 @@ Using R, perform t-tests to determine if all manufacturing lots and each lot ind
 In our RScript, we will use t.test() function to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.we will write three more RScripts,using the t.test() function and its subset() argument to determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch.<br>
 
 <img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/ttest_RScript.png"  width = 600><br>
+### T-tests for all manufacturing lots
+The p-value = .6028,which is greater than .05,we cannot reject the null hypothesis.which means the total manufacturing lot is not statistically significant from the normal distribution and normality can be assumed. The mean falls within the 95% confidence interval.
 <img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/ttest_result_total.png"  width = 500><br>
+### T-tests for all Lot 1
+The p-value = 1,which is greater than .05,we cannot reject the null hypothesis.which means lot1 is not statistically significant from the normal distribution and normality can be assumed. The mean falls within the 95% confidence interval.
 <img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/lot1_result.png"  width = 500><br>
+### T-tests for all Lot 2
+The p-value = 0.6072,which is greater than .05,we cannot reject the null hypothesis.which means lot2 is not statistically significant from the normal distribution and normality can be assumed. The mean falls within the 95% confidence interval.
 <img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/lot2_result.png"  width = 500><br>
+### T-tests for all Lot 3
+The p-value = .04168,which is less than .05,we can rejet the null hypothesis.which means lot3 is statistically significant from the normal distribution and normality cannot be assumed.However,the mean falls within the 95% confidence interval.
 <img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/lot3_result.png"  width = 500><br>
 
 ## Summary of the T-Test results on Suspension Coils
+By using a significance level of 95%, meaning that 95% of the time this tests results would be true, I tested to see if any of the four groups had a statistical difference from the mean of 1,500 PSI. After running the tests, all four p-values where much greater than .05 meaning that I would fail to reject that there is a statistical difference between the four groups and the population mean.
+
 
