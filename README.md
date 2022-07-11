@@ -80,4 +80,4 @@ Null Hypothesis is the cars belonging to same type like sedan have same fuel eff
 - What statistical test would you use to test the hypothesis? And why?
 I would use an Sample t tests,ANOVA test to complete this analysis for checking the maintanence cost and fuel efficiencies. Also I would use the ggplot2 library to plot boxplots which show the how different cars have different maintanence cost and fuel efficiencies.
 - What data is needed to run the statistical test?
-- I would need maintanence cost and fuel efficiency data from 100 individual cars to create a sample size of data for each car in the class type.
+I would need maintanence cost and fuel efficiency data from 50 individual cars to create a sample size of data for each car in the class type.Each car type would contain some 
