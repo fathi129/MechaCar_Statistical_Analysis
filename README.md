@@ -65,10 +65,19 @@ The p-value = 1,which is greater than .05,we cannot reject the null hypothesis.w
 The p-value = 0.6072,which is greater than .05,we cannot reject the null hypothesis.which means lot2 is not statistically significant from the normal distribution and normality can be assumed. The mean falls within the 95% confidence interval.
 <img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/lot2_result.png"  width = 500><br>
 ### T-tests for all Lot 3
-The p-value = .04168,which is less than .05,we can rejet the null hypothesis.which means lot3 is statistically significant from the normal distribution and normality cannot be assumed.However,the mean falls within the 95% confidence interval.
+The p-value = .04168,which is less than .05,we can reject the null hypothesis.which means lot3 is statistically significant from the normal distribution and normality cannot be assumed.However,the mean falls within the 95% confidence interval.
 <img src = "https://github.com/fathi129/MechaCar_Statistical_Analysis/blob/master/Results/lot3_result.png"  width = 500><br>
 
 ## Summary of the T-Test results on Suspension Coils
-By using a significance level of 95%, meaning that 95% of the time this tests results would be true, I tested to see if any of the four groups had a statistical difference from the mean of 1,500 PSI. After running the tests, all four p-values where much greater than .05 meaning that I would fail to reject that there is a statistical difference between the four groups and the population mean.
+By using a significance level of 95%, meaning that 95% of the time this tests results would be true, I tested to see if any of the four groups had a statistical difference from the mean of 1,500 PSI. After running the tests, all three p-values where much greater than .05 meaning that I would fail to reject that there is a statistical difference between the three groups and the population mean,but only the lot3 has p-value less than 0.05 but the mean falls in the 95% confident level.
 
-
+## Study Design: MechaCar vs Competition. 
+The metrics would be of interest to customers for MechaCar performance against the competitors are cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+- What metric or metrics are you going to test?
+The metrics which I want to test are maintanence cost,fuel efficiency.
+-What is the null hypothesis or alternative hypothesis?
+Null Hypothesis is the cars belonging to same type like sedan have same fuel efficiency.Alternative Hypothesis is the same type of car does not have same fuel efficiency.Null Hypothesis the small cars have less maintanence cost compared to big car.The Alternative hypothesis is it is not so.
+- What statistical test would you use to test the hypothesis? And why?
+I would use an Sample t tests,ANOVA test to complete this analysis for checking the maintanence cost and fuel efficiencies. Also I would use the ggplot2 library to plot boxplots which show the how different cars have different maintanence cost and fuel efficiencies.
+- What data is needed to run the statistical test?
+- I would need maintanence cost and fuel efficiency data from 100 individual cars to create a sample size of data for each car in the class type.
